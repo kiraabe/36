@@ -1,0 +1,139 @@
+{
+  "page": {
+    "title": "Portfolio",
+    "subtitle": "Our Project Portfolio",
+    "description": "Our Work in Action",
+    "breadcrumb": {
+      "gallery": "Portfolio",
+      "project": "Portfolio"
+    }
+  },
+  "projects": {
+    "beforeAfter": "Before & After",
+    "viewProject": "View Project",
+    "projectDetails": "Project Details",
+    "client": "CLIENT",
+    "projectDate": "Project Date",
+    "development": "Development, App Design",
+    "seeLive": "See live",
+    "categories": {
+      "all": "All Projects",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "deep": "Deep Cleaning",
+      "maintenance": "Maintenance"
+    }
+  },
+  "filter": {
+    "all": "All",
+    "houseCleaning": "House Cleaning",
+    "deepCleaning": "Deep Cleaning",
+    "windowCleaning": "Window Cleaning",
+    "officeCleaning": "Office Cleaning"
+  },
+  "gallery": {
+    "subtitle": "CLEANING SERVICE GALLERY",
+    "title": "Food & Beverage Cleaning Excellence",
+    "description": "Discover how we maintain the highest hygiene standards for restaurants, cafes, and food establishments across Amsterdam.",
+    "residential": {
+      "title": "Residential Cleaning",
+      "description": "Transform your home with our professional cleaning services"
+    },
+    "commercial": {
+      "title": "Commercial Cleaning",
+      "description": "Keep your business space pristine and professional"
+    },
+    "deep": {
+      "title": "Deep Cleaning",
+      "description": "Comprehensive cleaning for exceptional results"
+    }
+  },
+  "projectSlider": {
+    "project1": {
+      "title": "Corporate Office Deep Clean",
+      "description": "Professional team cleaning and sanitizing corporate headquarters with eco-friendly products and advanced equipment.",
+      "clientName": "TechCorp Industries"
+    },
+    "project2": {
+      "title": "High-Rise Window Cleaning",
+      "description": "Specialized window cleaning service for commercial buildings using professional-grade equipment and safety protocols.",
+      "clientName": "Downtown Plaza"
+    },
+    "project3": {
+      "title": "Medical Facility Sanitization",
+      "description": "Complete sanitization and deep cleaning of medical facilities following strict health and safety standards.",
+      "clientName": "City Medical Center"
+    },
+    "project4": {
+      "title": "Carpet & Upholstery Restoration",
+      "description": "Professional carpet cleaning and upholstery restoration using advanced steam cleaning and stain removal techniques.",
+      "clientName": "Luxury Hotel Chain"
+    },
+    "project5": {
+      "title": "Industrial Deep Cleaning",
+      "description": "Comprehensive industrial cleaning service for manufacturing facilities with specialized equipment and trained personnel.",
+      "clientName": "Manufacturing Corp"
+    }
+  },
+  "portfolio": {
+    "filterTitle": "Filter by Service",
+    "noItems": "No projects found for this category",
+    "viewDetails": "View Details",
+    "projectCategory": "Project Category"
+  },
+  "categories": {
+    "residential": "House Cleaning",
+    "commercial": "Office Cleaning",
+    "specialized": "Window Cleaning",
+    "deepCleaning": "Deep Cleaning"
+  },
+  "projectData": {
+    "project1": {
+      "jobTitle": "Residential, Surface Cleaning",
+      "title": "Living Room Deep Clean",
+      "description": "Professional team in pink uniforms providing comprehensive table and surface cleaning services."
+    },
+    "project2": {
+      "jobTitle": "Residential, Complete Service",
+      "title": "Complete Home Service",
+      "description": "Full-service residential cleaning team ensuring every corner of your home is spotless and fresh."
+    }
+  },
+  "projects": {
+    "project3": {
+      "jobTitle": "Window & Carpet Care",
+      "title": "Window & Carpet Care",
+      "description": "Specialized window cleaning and carpet maintenance services for residential properties."
+    },
+    "project4": {
+      "jobTitle": "Kitchen, Deep Cleaning",
+      "title": "Kitchen Deep Cleaning",
+      "description": "Intensive kitchen cleaning service focusing on appliances, countertops, and sanitation."
+    },
+    "project5": {
+      "jobTitle": "Dishwashing, Professional Service",
+      "title": "Professional Dishwashing",
+      "description": "Expert dishwashing and kitchen cleanup services for restaurants and commercial establishments."
+    },
+    "project6": {
+      "jobTitle": "Dish Service, Commercial",
+      "title": "Professional Dish Service",
+      "description": "Commercial dishwashing and kitchen maintenance services for busy food service establishments."
+    },
+    "project7": {
+      "jobTitle": "Bathroom, Sanitization",
+      "title": "Bathroom Sanitization",
+      "description": "Complete bathroom cleaning and sanitization services ensuring hygiene and cleanliness."
+    },
+    "project8": {
+      "jobTitle": "Vacuum Team, Professional",
+      "title": "Professional Vacuum Team",
+      "description": "Expert carpet and upholstery cleaning using advanced vacuum technology and techniques."
+    },
+    "project9": {
+      "jobTitle": "Office, Commercial Cleaning",
+      "title": "Office Cleaning Services",
+      "description": "Comprehensive office cleaning services maintaining professional work environments."
+    }
+  }
+}

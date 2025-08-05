@@ -1,0 +1,239 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  DARK MODE TOGGLE CSS START
+/*----------------------------------------*/
+
+.dark-mode-toggle {
+  background: none;
+  border: 2px solid var(--tp-grey-4, #e0e0e0);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 15px;
+  
+  @media #{$md} {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  
+  @media #{$xs} {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+
+  &:hover {
+    border-color: var(--tp-theme-1);
+    background-color: var(--tp-theme-1);
+    
+    .dark-mode-toggle__icon {
+      color: var(--tp-common-white);
+    }
+  }
+
+  &__icon {
+    color: var(--tp-common-black);
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    svg {
+      width: 20px;
+      height: 20px;
+      
+      @media #{$xs} {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
+
+/* Get Quote Button Styles */
+.tp-btn-primary {
+  background: linear-gradient(135deg, var(--tp-theme-1) 0%, var(--tp-theme-2, #6366f1) 100%);
+  color: var(--tp-common-white);
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin-left: 15px;
+  
+  @media #{$lg} {
+    padding: 10px 20px;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  
+  @media #{$md} {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    color: var(--tp-common-white);
+  }
+
+  span {
+    position: relative;
+    z-index: 1;
+  }
+
+  b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover b {
+    opacity: 1;
+  }
+}
+
+/*----------------------------------------*/
+/*  DARK MODE STYLES
+/*----------------------------------------*/
+
+html.dark-mode {
+  // Header styles
+  .header-bottom__transparent {
+    background-color: rgba(26, 32, 53, 0.95);
+    backdrop-filter: blur(10px);
+  }
+  
+  .header-sticky {
+    background-color: var(--tp-common-black) !important;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3) !important;
+  }
+  
+  .header-top__area {
+    background-color: var(--tp-common-black);
+  }
+  
+  .header-top__link span {
+    color: var(--tp-common-white);
+  }
+  
+  .header-top__support span {
+    color: var(--tp-common-white);
+    
+    a {
+      color: var(--tp-theme-1);
+    }
+  }
+  
+  .header-bottom__main-menu nav ul li a {
+    color: var(--tp-common-white);
+    
+    &:hover {
+      color: var(--tp-theme-1);
+    }
+  }
+  
+  .submenu {
+    background-color: var(--tp-common-black) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    li a {
+      color: var(--tp-common-white);
+      
+      &:hover {
+        color: var(--tp-theme-1);
+      }
+    }
+  }
+  
+  // Dark mode toggle specific styles
+  .dark-mode-toggle {
+    border-color: rgba(255, 255, 255, 0.3);
+    
+    &__icon {
+      color: var(--tp-common-white);
+    }
+    
+    &:hover {
+      border-color: var(--tp-theme-1);
+      background-color: var(--tp-theme-1);
+    }
+  }
+  
+  // Mobile menu bar
+  .header-bottom__bar {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--tp-common-white);
+    
+    &:hover {
+      background-color: var(--tp-theme-1);
+    }
+  }
+  
+  // Body and general styles
+  body {
+    background-color: var(--tp-common-black);
+    color: var(--tp-common-white);
+  }
+  
+  // Offcanvas dark mode styles
+  .tpoffcanvas {
+    background-color: rgba(20, 20, 20, 0.98);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .body-overlay {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  // Override other components as needed
+  .tp-section-title {
+    color: var(--tp-common-white);
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  // Form elements
+  input, textarea, select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--tp-common-white);
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  // Cards and sections
+  .tp-service__item,
+  .tp-testimonial__wrapper,
+  .tp-price__item {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+// Animation for dark mode transition
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

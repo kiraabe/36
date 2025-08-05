@@ -1,0 +1,186 @@
+/* Navbar Z-Index and Overlay Fix */
+
+/* Ensure navbar always stays on top */
+.header-bottom__transparent,
+.tp-header-height,
+header[class*="tp-header"] {
+  position: relative;
+  z-index: 9999 !important;
+}
+
+/* Sticky header enhanced z-index */
+.header-sticky,
+.header-bottom__area.header-sticky,
+.header-blur.header-sticky,
+.header-bottom__plr-5.header-sticky,
+.header-sticky-bg-2.header-sticky {
+  z-index: 99999 !important;
+  position: fixed !important;
+}
+
+/* Hero area spacing fixes */
+.tp-hero__area.tp-hero__pl-pr {
+  padding-top: 80px;
+}
+
+/* Mobile and tablet responsive adjustments */
+@media (max-width: 1199px) {
+  .tp-hero__area.tp-hero__pl-pr {
+    padding-top: 100px;
+  }
+  
+  .tp-hero__bg {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tp-hero__area.tp-hero__pl-pr {
+    padding-top: 120px;
+  }
+  
+  .tp-hero__bg {
+    padding-top: 140px;
+  }
+  
+  /* Ensure header has enough space on tablets */
+  .header-bottom__transparent,
+  .tp-header-height {
+    position: relative;
+    z-index: 99999 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .tp-hero__area.tp-hero__pl-pr {
+    padding-top: 140px;
+  }
+  
+  .tp-hero__bg {
+    padding-top: 160px;
+  }
+  
+  /* Mobile header fixes */
+  .header-bottom__transparent,
+  .tp-header-height {
+    position: relative;
+    z-index: 99999 !important;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+  }
+}
+
+@media (max-width: 575px) {
+  .tp-hero__area.tp-hero__pl-pr {
+    padding-top: 160px;
+  }
+  
+  .tp-hero__bg {
+    padding-top: 180px;
+  }
+}
+
+/* Banner background positioning */
+.tp-hero__bg {
+  background-attachment: scroll !important;
+  background-position: center top !important;
+}
+
+/* Ensure proper stacking context */
+.tp-hero__area {
+  position: relative;
+  z-index: 1;
+}
+
+.tp-hero__content-box {
+  position: relative;
+  z-index: 2;
+}
+
+.tp-hero__bottom {
+  position: relative;
+  z-index: 3;
+}
+
+/* Mobile menu and offcanvas z-index fixes */
+.tp-offcanvas-area,
+.mean-container .mean-bar {
+  z-index: 999999 !important;
+}
+
+/* Search popup and modal z-index */
+.search-popup,
+.video-popup,
+.modal {
+  z-index: 9999999 !important;
+}
+
+/* Ensure all header variants have proper positioning */
+.header-bottom__area,
+.tp-header-2__area,
+.header-bottom__area-2 {
+  position: relative;
+  z-index: 9999;
+}
+
+.header-bottom__area.header-sticky,
+.tp-header-2__area.header-sticky,
+.header-bottom__area-2.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+/* Navigation dropdown z-index */
+.submenu,
+.header-bottom__main-menu .submenu,
+.tp-header-2__main-menu .submenu {
+  z-index: 999999 !important;
+}
+
+/* Language switcher dropdown */
+.header-bottom__lang-submenu {
+  z-index: 999999 !important;
+}
+
+/* Prevent hero background from interfering with navbar */
+.tp-hero__bg.p-relative {
+  z-index: 1;
+}
+
+.tp-hero-bg.tp-hero-bg-single {
+  z-index: 1;
+}
+
+.tp-hero-shape {
+  z-index: 1;
+}
+
+/* Ensure container content respects navbar */
+.container,
+.container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+/* Fix for absolute positioned elements that might overlap */
+.tp-hero__title-shape,
+.tp-hero__shape-img-1,
+.tp-hero__shape-img-2 {
+  z-index: 1;
+}
+
+/* Mobile hamburger menu fix */
+@media (max-width: 991px) {
+  .header-bottom__bar,
+  .mean-container .mean-bar {
+    z-index: 999999 !important;
+    position: relative;
+  }
+  
+  .mean-container .mean-nav {
+    z-index: 999998 !important;
+  }
+}

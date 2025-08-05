@@ -1,0 +1,31 @@
+{
+  "page": {
+    "subtitle": "CONTACT US",
+    "title": "We'd love to hear From you.",
+    "info": "While we're good with smoke signals, there are easier ways to get in touch.",
+    "consultation24h": "We will contact you within 24h to schedule your cleaning consultation"
+  },
+  "office": {
+    "title": "Office Location",
+    "address": "Warmoesstraat 149,<br />Amsterdam, The Netherlands",
+    "phone": "+31 6 57 39 52 37",
+    "email": "info@omgcleaning.nl",
+    "hours": "Mon - Sat: 8:00 AM - 8:00 PM<br />Sun: Emergency Services Only"
+  },
+  "form": {
+    "title": "Send us a Message",
+    "subtitle": "Get in touch with our cleaning experts",
+    "inquiryTypes": {
+      "officeCleaning": "Office cleaning",
+      "washingDishes": "Washing dishes",
+      "carpetCleaning": "Carpet cleaning",
+      "windowCleaning": "Window cleaning",
+      "deepCleaning": "Deep cleaning",
+      "dustingVacuuming": "Dusting, Vacuuming and Mopping"
+    }
+  },
+  "map": {
+    "title": "Find Us on Map",
+    "description": "Visit our office in Amsterdam"
+  }
+}

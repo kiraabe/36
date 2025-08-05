@@ -1,0 +1,91 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  RED THEME UTILITIES
+/*----------------------------------------*/
+
+// Red background utilities
+.bg-red-gradient {
+    background: linear-gradient(135deg, var(--tp-common-red) 0%, var(--tp-common-red-2) 100%);
+    color: var(--tp-common-white);
+}
+
+.bg-red-light {
+    background: var(--tp-theme-light);
+    color: var(--tp-common-red);
+}
+
+.bg-red-pattern {
+    background: 
+        linear-gradient(135deg, var(--tp-common-red) 0%, var(--tp-common-red-2) 100%),
+        radial-gradient(circle at 25% 75%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+}
+
+// Text utilities
+.text-red {
+    color: var(--tp-common-red) !important;
+}
+
+.text-red-gradient {
+    background: linear-gradient(135deg, var(--tp-common-red) 0%, var(--tp-common-red-bright) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+// High contrast helpers
+.text-white-readable {
+    color: var(--tp-common-white);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-dark-readable {
+    color: var(--tp-common-black);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+// Link utilities
+.link-red {
+    color: var(--tp-common-red);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        color: var(--tp-common-red-2);
+        text-decoration: underline;
+        text-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);
+    }
+}
+
+// Shadow utilities
+.shadow-red {
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.3);
+}
+
+.shadow-red-lg {
+    box-shadow: 0 12px 35px rgba(220, 38, 38, 0.4);
+}
+
+// Border utilities
+.border-red {
+    border: 2px solid var(--tp-common-red);
+}
+
+.border-red-light {
+    border: 1px solid var(--tp-border-red-light);
+}
+
+// Dark mode contrast improvements
+html.dark-mode {
+    .bg-red-gradient {
+        background: linear-gradient(135deg, var(--tp-common-red-2) 0%, var(--tp-common-red-3) 100%);
+    }
+    
+    .text-red {
+        color: var(--tp-common-red-bright) !important;
+    }
+    
+    .text-white-readable {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+}

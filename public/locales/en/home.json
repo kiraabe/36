@@ -1,0 +1,157 @@
+{
+  "hero": {
+    "specialOffer": "Special Offer",
+    "firstCleaning": "First cleaning 50% off - Book now!",
+    "bookNow": "Book Now",
+    "title": "Professional Cleaning",
+    "subtitle": "Service You Trust",
+    "description": "Spotless results, every time. Eco-friendly products, trusted professionals.",
+    "bookingPhone": "Book Now",
+    "bookingPhoneText": "Book Now:"
+  },
+  "features": {
+    "unifiedView": "A Unified View of The Customer",
+    "industryProcedures": "Industry Leading Procedures",
+    "collaboration": "Collaboration Across<br />All Areas",
+    "ecoFriendly": "Eco-Friendly Products",
+    "professionalTeam": "Professional Team",
+    "satisfaction": "100% Satisfaction Guarantee",
+    "flexibleScheduling": "Flexible Scheduling",
+    "ecoFriendlyDesc": "Safe cleaning products that protect your family and pets",
+    "professionalTeamDesc": "Trained and insured cleaning professionals you can trust",
+    "satisfactionGuaranteeDesc": "100% satisfaction guarantee on all our cleaning services",
+    "flexibleSchedulingDesc": "Book cleaning services that fit your busy schedule",
+    "ecoFriendlyOnly": "Eco-friendly products only.",
+    "satisfactionGuaranteed": "100% satisfaction. Guaranteed.",
+    "licensedInsured": "Licensed & insured professionals",
+    "emergencyService": "Emergency Service Available"
+  },
+  "about": {
+    "provideProfessionalCleaning": "We Provide Professional Cleaning Solutions",
+    "trustedCleaningProfessionals": "Trusted cleaning professionals dedicated to keeping your space spotless and healthy!",
+    "happyClients": "2,500+ Happy Clients",
+    "yearsOfService": "15+ Years of Service",
+    "citiesServed": "50+ Cities Served"
+  },
+  "services": {
+    "ourServices": "Our Professional Cleaning Services",
+    "trustedCustomers": "Over 5,000 satisfied customers choose our professional cleaning services",
+    "deepCleaningSpecialists": "Deep Cleaning Specialists",
+    "professionalDeepCleaning": "Professional deep cleaning for your home & office",
+    "comprehensiveSolutions": "Comprehensive cleaning solutions for your home and office",
+    "trustedExperts": "Trusted cleaning experts for your home and office needs"
+  },
+  "testimonials": {
+    "wowMoment": "Ready for Your Own \"Wow\" Moment?",
+    "dontTakeWord": "Don't Just Take Our Word For It...",
+    "clientsSay": "What Our Cleaning Clients Say",
+    "starsReview": "5 Stars Based on 2,500+ Satisfied Homeowners & Businesses",
+    "satisfiedClients": "OVER 500+ SATISFIED CLIENTS",
+    "spotlessResults": "Spotless Results, Every Time",
+    "trustedResource": "Your trusted resource for professional cleaning tips and industry insights.",
+    "increaseText": "Increase in client satisfaction versus previous service",
+    "client1": {
+      "name": "Maria Santos",
+      "title": "Homeowner",
+      "description": "OMG Cleaning transformed our home completely. Their attention to detail and professional approach exceeded all our expectations. Highly recommended!"
+    },
+    "client2": {
+      "name": "James Wilson",
+      "title": "Office Manager",
+      "description": "Professional office cleaning service that keeps our workspace spotless. The team is reliable, efficient, and uses eco-friendly products."
+    },
+    "client3": {
+      "name": "Sarah Johnson",
+      "title": "Restaurant Owner",
+      "description": "Exceptional deep cleaning service for our restaurant. They maintain the highest hygiene standards and work around our busy schedule."
+    },
+    "client4": {
+      "name": "David Chen",
+      "title": "Property Manager",
+      "description": "Outstanding carpet and window cleaning services. They've been maintaining our properties for years with consistent quality results."
+    },
+    "client5": {
+      "name": "Lisa Anderson",
+      "title": "Medical Practice Manager",
+      "description": "Professional medical facility cleaning that meets all health standards. Their specialized sanitization protocols give us complete confidence."
+    },
+    "client6": {
+      "name": "Robert Martinez",
+      "title": "Retail Store Owner",
+      "description": "Reliable commercial cleaning service that keeps our store pristine. Professional staff and flexible scheduling make them our preferred choice."
+    }
+  },
+  "pricing": {
+    "title": "Affordable Cleaning Packages & Service Plans",
+    "subtitle": "Choose a cleaning plan that fits your budget and needs",
+    "saveBadge": "SAVE<br />35%",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "plans": {
+      "essential": {
+        "title": "Essential Clean",
+        "description": "Perfect for regular home maintenance"
+      },
+      "complete": {
+        "title": "Complete Clean",
+        "description": "Comprehensive cleaning for busy homes"
+      },
+      "deluxe": {
+        "title": "Deluxe Service",
+        "description": "Premium cleaning with extra care"
+      }
+    },
+    "features": {
+      "standardRoomCleaning": "Standard Room Cleaning",
+      "kitchenBathroomSanitization": "Kitchen & Bathroom Sanitization",
+      "interiorWindows": "Interior Windows & Mirrors",
+      "deepCarpetCleaning": "Deep Carpet Cleaning",
+      "exteriorWindowCleaning": "Exterior Window Cleaning"
+    }
+  },
+  "stats": {
+    "experienceYears": "Years<br />Of Experience",
+    "yearGrowth": "Year on<br />year Growth",
+    "countriesOperation": "Countries<br />Of Operation"
+  },
+  "rank": {
+    "whyChooseUs": "Why Choose Us",
+    "getSpotlessResults": "Get Spotless Results with Professional Cleaning"
+  },
+  "testimonialsSection": {
+    "subtitle": "SATISFIED CLIENTS & COMPLETED PROJECTS",
+    "title": "Real Customer Success Stories",
+    "testimonials": {
+      "0": {
+        "name": "Maria S.",
+        "title": "Homeowner",
+        "description": "OMG Cleaning transformed our home completely. Their attention to detail and eco-friendly approach exceeded all our expectations. Highly recommended!"
+      },
+      "1": {
+        "name": "James W.",
+        "title": "Office Manager",
+        "description": "Professional office cleaning service that keeps our workspace spotless. The team is reliable, efficient, and always on time."
+      },
+      "2": {
+        "name": "Sarah J.",
+        "title": "Restaurant Owner",
+        "description": "Exceptional deep cleaning service for our restaurant. They maintain the highest hygiene standards and work around our busy schedule."
+      },
+      "3": {
+        "name": "David C.",
+        "title": "Property Manager",
+        "description": "Outstanding carpet and window cleaning services. They've been maintaining our properties for years with consistent quality results."
+      },
+      "4": {
+        "name": "Lisa A.",
+        "title": "Medical Practice Manager",
+        "description": "Professional medical facility cleaning that meets all health standards. Their specialized protocols give us complete confidence."
+      },
+      "5": {
+        "name": "Robert M.",
+        "title": "Retail Store Owner",
+        "description": "Reliable commercial cleaning service that keeps our store pristine. Professional staff and flexible scheduling make them our choice."
+      }
+    }
+  }
+}

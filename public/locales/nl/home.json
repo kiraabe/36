@@ -1,0 +1,157 @@
+{
+  "hero": {
+    "specialOffer": "Speciale Aanbieding",
+    "firstCleaning": "Eerste schoonmaak 50% korting - Boek nu!",
+    "bookNow": "Boek Nu",
+    "title": "Professionele Schoonmaak",
+    "subtitle": "Kwaliteitsservice die Je Vertrouwt",
+    "description": "Perfecte resultaten, elke keer. Milieuvriendelijke producten, vertrouwde professionals.",
+    "bookingPhone": "Boek Nu",
+    "bookingPhoneText": "Boek Nu:"
+  },
+  "features": {
+    "unifiedView": "Een Uniforme Weergave van De Klant",
+    "industryProcedures": "Toonaangevende Procedures in de Industrie",
+    "collaboration": "Samenwerking Tussen<br />Alle Gebieden",
+    "ecoFriendly": "Milieuvriendelijke Producten",
+    "professionalTeam": "Professioneel Team",
+    "satisfaction": "100% Tevredenheidsgarantie",
+    "flexibleScheduling": "Flexibele Planning",
+    "ecoFriendlyDesc": "Veilige schoonmaakproducten die uw familie en huisdieren beschermen",
+    "professionalTeamDesc": "Getrainde en verzekerde schoonmaakprofessionals die u kunt vertrouwen",
+    "satisfactionGuaranteeDesc": "100% tevredenheidsgarantie op al onze schoonmaakdiensten",
+    "flexibleSchedulingDesc": "Boek schoonmaakdiensten die passen bij uw drukke schema",
+    "ecoFriendlyOnly": "Alleen milieuvriendelijke producten.",
+    "satisfactionGuaranteed": "100% tevredenheid. Gegarandeerd.",
+    "licensedInsured": "Gelicentieerde & verzekerde professionals",
+    "emergencyService": "Spoedeisende Service Beschikbaar"
+  },
+  "about": {
+    "provideProfessionalCleaning": "Wij Bieden Professionele Schoonmaakoplossingen",
+    "trustedCleaningProfessionals": "Vertrouwde schoonmaakprofessionals toegewijd aan het houden van uw ruimte spotloos en gezond!",
+    "happyClients": "2.500+ Tevreden Klanten",
+    "yearsOfService": "15+ Jaar Service",
+    "citiesServed": "50+ Steden Bediend"
+  },
+  "services": {
+    "ourServices": "Onze Professionele Schoonmaakdiensten",
+    "trustedCustomers": "Meer dan 5.000 tevreden klanten kiezen voor onze professionele schoonmaakdiensten",
+    "deepCleaningSpecialists": "Grondige Reiniging Specialisten",
+    "professionalDeepCleaning": "Professionele grondige reiniging voor uw huis & kantoor",
+    "comprehensiveSolutions": "Uitgebreide schoonmaakoplossingen voor uw huis en kantoor",
+    "trustedExperts": "Vertrouwde schoonmaakexperts voor uw huis- en kantoorbehoeften"
+  },
+  "testimonials": {
+    "wowMoment": "Klaar voor Uw Eigen \"Wow\" Moment?",
+    "dontTakeWord": "Geloof Ons Niet Zomaar Op Ons Woord...",
+    "clientsSay": "Wat Onze Schoonmaakklanten Zeggen",
+    "starsReview": "5 Sterren Gebaseerd op 2.500+ Tevreden Huiseigenaren & Bedrijven",
+    "satisfiedClients": "MEER DAN 500+ TEVREDEN KLANTEN",
+    "spotlessResults": "Perfecte Resultaten, Elke Keer",
+    "trustedResource": "Uw vertrouwde bron voor professionele schoonmaaktips en branche-inzichten.",
+    "increaseText": "Toename in klanttevredenheid versus vorige service",
+    "client1": {
+      "name": "Maria Santos",
+      "title": "Huiseigenaar",
+      "description": "OMG Cleaning heeft ons huis volledig getransformeerd. Hun aandacht voor detail en professionele aanpak overtrof al onze verwachtingen. Zeer aanbevolen!"
+    },
+    "client2": {
+      "name": "James Wilson",
+      "title": "Kantoormanager",
+      "description": "Professionele kantoorschoonmaakservice die onze werkruimte spotloos houdt. Het team is betrouwbaar, efficiënt en gebruikt milieuvriendelijke producten."
+    },
+    "client3": {
+      "name": "Sarah Johnson",
+      "title": "Restaurant Eigenaar",
+      "description": "Uitzonderlijke grondige reinigingsservice voor ons restaurant. Ze handhaven de hoogste hygiënische normen en werken rond ons drukke schema."
+    },
+    "client4": {
+      "name": "David Chen",
+      "title": "Vastgoedbeheerder",
+      "description": "Uitstekende tapijt- en ramenreinigingsdiensten. Ze onderhouden onze eigendommen al jaren met consistente kwaliteitsresultaten."
+    },
+    "client5": {
+      "name": "Lisa Anderson",
+      "title": "Medische Praktijk Manager",
+      "description": "Professionele medische faciliteitsreiniging die voldoet aan alle gezondheidsnormen. Hun gespecialiseerde sanitatieprotocollen geven ons volledig vertrouwen."
+    },
+    "client6": {
+      "name": "Robert Martinez",
+      "title": "Winkel Eigenaar",
+      "description": "Betrouwbare commerciële schoonmaakservice die onze winkel pristine houdt. Professioneel personeel en flexibele planning maken hen onze voorkeurskeuze."
+    }
+  },
+  "pricing": {
+    "title": "Betaalbare Schoonmaakpakketten & Service Plannen",
+    "subtitle": "Kies een schoonmaakplan dat past bij uw budget en behoeften",
+    "saveBadge": "BESPAAR<br />35%",
+    "monthly": "Maandelijks",
+    "yearly": "Jaarlijks",
+    "plans": {
+      "essential": {
+        "title": "Basis Schoonmaak",
+        "description": "Perfect voor regulier huisonderhoud"
+      },
+      "complete": {
+        "title": "Complete Schoonmaak",
+        "description": "Uitgebreide reiniging voor drukke huizen"
+      },
+      "deluxe": {
+        "title": "Luxe Service",
+        "description": "Premium schoonmaak met extra zorg"
+      }
+    },
+    "features": {
+      "standardRoomCleaning": "Standaard Kamer Schoonmaak",
+      "kitchenBathroomSanitization": "Keuken & Badkamer Sanitatie",
+      "interiorWindows": "Binnen Ramen & Spiegels",
+      "deepCarpetCleaning": "Grondige Tapijtreiniging",
+      "exteriorWindowCleaning": "Buiten Ramenreiniging"
+    }
+  },
+  "stats": {
+    "experienceYears": "Jaren<br />Ervaring",
+    "yearGrowth": "Jaar-op-jaar<br />Groei",
+    "countriesOperation": "Landen van<br />Operatie"
+  },
+  "rank": {
+    "whyChooseUs": "Waarom Voor Ons Kiezen",
+    "getSpotlessResults": "Krijg Perfecte Resultaten met Professionele Schoonmaak"
+  },
+  "testimonialsSection": {
+    "subtitle": "TEVREDEN KLANTEN & VOLTOOIDE PROJECTEN",
+    "title": "Echte Klant Succesverhalen",
+    "testimonials": {
+      "0": {
+        "name": "Maria S.",
+        "title": "Huiseigenaar",
+        "description": "OMG Cleaning heeft ons huis volledig getransformeerd. Hun aandacht voor detail en milieuvriendelijke aanpak overtrof al onze verwachtingen. Zeer aanbevolen!"
+      },
+      "1": {
+        "name": "James W.",
+        "title": "Kantoormanager",
+        "description": "Professionele kantoorschoonmaakservice die onze werkruimte spotloos houdt. Het team is betrouwbaar, efficiënt en altijd op tijd."
+      },
+      "2": {
+        "name": "Sarah J.",
+        "title": "Restaurant Eigenaar",
+        "description": "Uitzonderlijke grondige reinigingsservice voor ons restaurant. Ze handhaven de hoogste hygiënenormen en werken rond ons drukke schema."
+      },
+      "3": {
+        "name": "David C.",
+        "title": "Vastgoedbeheerder",
+        "description": "Uitstekende tapijt- en ramenreinigingsdiensten. Ze onderhouden onze eigendommen al jaren met consistente kwaliteitsresultaten."
+      },
+      "4": {
+        "name": "Lisa A.",
+        "title": "Medische Praktijk Manager",
+        "description": "Professionele medische faciliteitsreiniging die voldoet aan alle gezondheidsnormen. Hun gespecialiseerde protocollen geven ons volledig vertrouwen."
+      },
+      "5": {
+        "name": "Robert M.",
+        "title": "Winkel Eigenaar",
+        "description": "Betrouwbare commerciële schoonmaakservice die onze winkel pristine houdt. Professioneel personeel en flexibele planning maken hen onze keuze."
+      }
+    }
+  }
+}

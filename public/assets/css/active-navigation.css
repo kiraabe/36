@@ -1,0 +1,128 @@
+/* Active Navigation States for OMG Cleaning Service */
+
+/* Desktop Navigation Active States */
+.header-bottom__main-menu nav ul li.active > a,
+.header-bottom__main-menu nav ul li > a.active {
+    color: #000000 !important;
+    font-weight: 600 !important;
+    position: relative;
+}
+
+.header-bottom__main-menu nav ul li.active > a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 3px;
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(220, 38, 38, 0.4);
+}
+
+/* Submenu Active States */
+.header-bottom__main-menu nav ul li .submenu li.active > a,
+.header-bottom__main-menu nav ul li .submenu li > a.active {
+    color: #DC2626 !important;
+    font-weight: 600 !important;
+    position: relative;
+}
+
+.header-bottom__main-menu nav ul li .submenu li.active > a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+    transition: .3s;
+    display: inline-block;
+}
+
+/* Sticky Header Active States */
+.header-sticky .header-bottom__main-menu nav ul li.active > a,
+.header-sticky .header-bottom__main-menu nav ul li > a.active {
+    color: #DC2626 !important;
+    font-weight: 600 !important;
+}
+
+.header-sticky .header-bottom__main-menu nav ul li.active > a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 3px;
+    background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(220, 38, 38, 0.4);
+}
+
+/* Mobile Navigation Active States */
+.mean-container .mean-nav ul li.active > a,
+.mean-container .mean-nav ul li > a.active {
+    color: #DC2626 !important;
+    font-weight: 800 !important;
+    background: linear-gradient(135deg, rgba(220, 38, 38, 0.1) 0%, rgba(185, 28, 28, 0.1) 100%) !important;
+    border-left: 3px solid #DC2626 !important;
+    padding-left: 15px !important;
+    position: relative;
+}
+
+.mean-container .mean-nav ul li.active > a::after,
+.mean-container .mean-nav ul li > a.active::after {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background: #DC2626;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(220, 38, 38, 0.5);
+}
+
+/* Active Parent Navigation (when submenu item is active) */
+.header-bottom__main-menu nav ul li.active > a {
+    color: #DC2626 !important;
+    font-weight: 600 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .header-bottom__main-menu nav ul li.active > a::after {
+        display: none;
+    }
+}
+
+/* Animation for active state transitions */
+.header-bottom__main-menu nav ul li > a,
+.mean-container .mean-nav ul li > a {
+    transition: all 0.3s ease;
+}
+
+.header-bottom__main-menu nav ul li.active > a::after {
+    animation: activeIndicator 0.3s ease-in-out;
+}
+
+@keyframes activeIndicator {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) scaleX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scaleX(1);
+    }
+}
+
+/* Focus states for accessibility */
+.header-bottom__main-menu nav ul li > a:focus,
+.mean-container .mean-nav ul li > a:focus {
+    outline: 2px solid #DC2626;
+    outline-offset: 2px;
+}

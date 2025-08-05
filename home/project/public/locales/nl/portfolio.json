@@ -1,0 +1,122 @@
+{
+  "page": {
+    "title": "Schoonmaak Galerij",
+    "subtitle": "Ons Project Portfolio",
+    "description": "Ontdek onze professionele schoonmaakdiensten in actie. Zie de kwaliteit en zorg die we bij elk project brengen.",
+    "breadcrumb": {
+      "gallery": "Galerij",
+      "project": "Ons Project"
+    }
+  },
+  "projects": {
+    "beforeAfter": "Voor & Na",
+    "viewProject": "Bekijk Project",
+    "projectDetails": "Project Details",
+    "client": "KLANT",
+    "projectDate": "Project Datum",
+    "development": "Ontwikkeling, App Design",
+    "seeLive": "Bekijk live",
+    "categories": {
+      "all": "Alle Projecten",
+      "residential": "Residentieel",
+      "commercial": "Commercieel",
+      "deep": "Grondige Reiniging",
+      "maintenance": "Onderhoud"
+    }
+  },
+  "gallery": {
+    "residential": {
+      "title": "Huisschoonmaak",
+      "description": "Transformeer uw huis met onze professionele schoonmaakdiensten"
+    },
+    "commercial": {
+      "title": "Commerciële Schoonmaak",
+      "description": "Houd uw bedrijfsruimte pristine en professioneel"
+    },
+    "deep": {
+      "title": "Grondige Reiniging",
+      "description": "Uitgebreide reiniging voor uitzonderlijke resultaten"
+    }
+  },
+  "categories": {
+    "residential": "Residentieel",
+    "commercial": "Commercieel",
+    "specialized": "Gespecialiseerd",
+    "deepCleaning": "Grondige Reiniging",
+    "ecoFriendly": "Milieuvriendelijk"
+  },
+  "projectData": {
+    "project1": {
+      "jobTitle": "Residentieel, Oppervlakte Reiniging",
+      "title": "Woonkamer Grondige Reiniging",
+      "description": "Professioneel team in roze uniformen dat uitgebreide tafel- en oppervlakte schoonmaakdiensten levert."
+    },
+    "project2": {
+      "jobTitle": "Residentieel, Ramen & Vloer",
+      "title": "Complete Huis Service",
+      "description": "Blauw gekleed team dat ramenreiniging, stofzuigen en vloer dweilen diensten levert."
+    },
+    "project3": {
+      "jobTitle": "Residentieel, Ramen & Stofzuigen",
+      "title": "Ramen & Tapijt Zorg",
+      "description": "Professionele ramenreiniging en tapijt stofzuigen voor pristine thuisomgevingen."
+    },
+    "project4": {
+      "jobTitle": "Gespecialiseerd, Keuken Zorg",
+      "title": "Keuken Grondige Reiniging",
+      "description": "Professionele keukenreiniging en afwasdiensten door gecertificeerd schoonmaakpersoneel."
+    },
+    "project5": {
+      "jobTitle": "Gespecialiseerd, Keuken Service",
+      "title": "Professionele Afwas",
+      "description": "Expert keukenreinigingsteam in gele uniformen dat grondige afwasdiensten levert."
+    },
+    "project6": {
+      "jobTitle": "Gespecialiseerd, Afwas Zorg",
+      "title": "Professionele Afwas Service",
+      "description": "Toegewijde afwasreiniging en keukenonderhoud met professionele reinigingstechnieken."
+    },
+    "project7": {
+      "jobTitle": "Gespecialiseerd, Badkamer Zorg",
+      "title": "Badkamer Sanitatie",
+      "description": "Professionele badkamerreiniging en toiletonderhoud met hygiëne-gerichte aanpak."
+    },
+    "project8": {
+      "jobTitle": "Grondige Reiniging, Team Service",
+      "title": "Professioneel Stofzuiger Team",
+      "description": "Gecoördineerd team van drie professionals die uitgebreide stofzuiger reinigingsdiensten leveren."
+    },
+    "project9": {
+      "jobTitle": "Commercieel, Kantoor Zorg",
+      "title": "Kantoor Schoonmaakdiensten",
+      "description": "Professionele kantoorschoonmaak inclusief bureau sanitatie en werkruimte onderhoud."
+    }
+  },
+  "projectSlider": {
+    "project1": {
+      "title": "Bedrijfskantoor Grondige Reiniging",
+      "description": "Professioneel team dat het hoofdkantoor reinigt en desinfecteert met milieuvriendelijke producten en geavanceerde apparatuur.",
+      "clientName": "TechCorp Industries"
+    },
+    "project2": {
+      "title": "Hoogbouw Ramenreiniging",
+      "description": "Gespecialiseerde ramenreinigingsservice voor commerciële gebouwen met professionele apparatuur en veiligheidsprotocollen.",
+      "clientName": "Downtown Plaza"
+    },
+    "project3": {
+      "title": "Medische Faciliteit Sanitatie",
+      "description": "Complete sanitatie en grondige reiniging van medische faciliteiten volgens strikte gezondheids- en veiligheidsnormen.",
+      "clientName": "Stadsmedisch Centrum"
+    },
+    "project4": {
+      "title": "Tapijt & Bekleding Restauratie",
+      "description": "Professionele tapijtreiniging en bekledingsrestauratie met geavanceerde stoomreiniging en vlekverwijderingstechnieken.",
+      "clientName": "Luxe Hotelketen"
+    },
+    "project5": {
+      "title": "Industriële Grondige Reiniging",
+      "description": "Uitgebreide industriële reinigingsservice voor productiefaciliteiten met gespecialiseerde apparatuur en getraind personeel.",
+      "clientName": "Manufacturing Corp"
+    }
+  }
+}

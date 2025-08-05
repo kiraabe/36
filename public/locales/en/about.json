@@ -1,0 +1,151 @@
+{
+  "page": {
+    "subtitle": "ABOUT OUR SERVICES",
+    "experienceYears": "Years<br />Of Experience",
+    "yearGrowth": "Year on<br />year Growth",
+    "countriesOperation": "Countries<br />Of Operation",
+    "manageServices": "Manage <span>All your Cleaning</span> Services in one Place",
+    "excellenceConvenience": "Professional cleaning solutions are where excellence meets convenience!<br />Schedule, track, and manage all your cleaning needs with our comprehensive<br />service platform. Reliable, efficient, and tailored to your requirements.",
+    "bookCleaningService": "Book Cleaning Service"
+  },
+  "company": {
+    "aboutTitle": "About Our Company",
+    "missionTitle": "Our Mission",
+    "visionTitle": "Our Vision",
+    "valuesTitle": "Our Values",
+    "historyTitle": "Company History",
+    "teamTitle": "Meet Our Team"
+  },
+  "journey": {
+    "title": "Our Journey",
+    "description": "From humble beginnings to becoming Amsterdam's most trusted cleaning service",
+    "milestones": {
+      "2008": "Company Founded",
+      "2012": "Expanded Services",
+      "2016": "Eco-Friendly Initiative",
+      "2020": "Digital Platform Launch",
+      "2024": "Market Leadership"
+    }
+  },
+  "team": {
+    "subtitle": "OUR PROFESSIONAL TEAM",
+    "title": "Meet the Cleaning Experts",
+    "description": "Our experienced professionals are dedicated to providing exceptional cleaning services"
+  },
+  "brand": {
+    "title": "Trusted by Premium Brands",
+    "description": "We proudly serve restaurants, cafes, and commercial establishments with exceptional cleaning standards"
+  },
+  "aboutServices": {
+    "title": "ABOUT OUR SERVICES",
+    "question": "Is Your Home's Clutter Stealing Your Peace of Mind and Precious Family Time?",
+    "description1": "Remember that sigh of relief from a sparkling home? When was the last time you felt that? Are you constantly battling endless chores, feeling like your to-do list never shrinks? How much quality time are you losing with loved ones, simply trying to keep up?",
+    "description2": "Reclaim Your Space. Reclaim Your Life. With OMG Cleaning Company.",
+    "buttonText": "Get Your Free Quote & Your Free Time!"
+  },
+  "companyArea": {
+    "subtitle": "ABOUT OUR SERVICES",
+    "title": "Is Your Office's Mess Silently Costing You More Than You Realize?",
+    "description1": "Imagine walking in, not inspired, but weighed down by dust, sticky surfaces, or neglected restrooms. How much productivity is lost when your team is distracted? Are you truly comfortable with clients seeing anything less than pristine?",
+    "description2": "Reclaim Your Workspace. Elevate Your Image. Experience the OMG Difference.",
+    "description3": "Get a Sparkling Quote Today!",
+    "videoText": "See Our Work",
+    "stats": {
+      "trustedBy": "TRUSTED BY",
+      "happyClients": "Happy Clients",
+      "experience": "EXPERIENCE",
+      "yearsOfService": "Years of Service",
+      "coverage": "COVERAGE",
+      "citiesServed": "Cities Served"
+    }
+  },
+  "teamSection": {
+    "subtitle": "THE TEAM",
+    "title": "Our Leaders",
+    "description": "Our clients are the companies and startups who make the world go round!"
+  },
+  "journey": {
+    "subtitle": "OUR STORY",
+    "title": "15+ Years of Professional Cleaning Excellence",
+    "milestones": {
+      "2009": {
+        "date": "JAN 2009",
+        "title": "Company Founded",
+        "description": "Started with a small team dedicated to providing exceptional cleaning services in Amsterdam."
+      },
+      "2012": {
+        "date": "MAR 2012",
+        "title": "Commercial Expansion",
+        "description": "Expanded services to include office buildings and commercial spaces across the Netherlands."
+      },
+      "2015": {
+        "date": "JUN 2015",
+        "title": "Eco-Friendly Initiative",
+        "description": "Launched our green cleaning program using only environmentally safe products and methods."
+      },
+      "2018": {
+        "date": "SEP 2018",
+        "title": "Technology Integration",
+        "description": "Implemented digital booking systems and real-time tracking for enhanced customer experience."
+      },
+      "2021": {
+        "date": "DEC 2021",
+        "title": "Industry Recognition",
+        "description": "Awarded \"Best Cleaning Service\" in Amsterdam for three consecutive years running."
+      },
+      "2022a": {
+        "date": "MAR 2022",
+        "title": "Team Expansion",
+        "description": "Grew our professional cleaning team to over 100 certified staff members."
+      },
+      "2022b": {
+        "date": "AUG 2022",
+        "title": "COVID-19 Safety Protocol",
+        "description": "Implemented enhanced sanitization procedures and safety protocols for all services."
+      },
+      "2023a": {
+        "date": "JAN 2023",
+        "title": "Mobile App Launch",
+        "description": "Released our customer mobile app for easy booking and service management."
+      },
+      "2023b": {
+        "date": "JUN 2023",
+        "title": "Sustainability Certification",
+        "description": "Achieved ISO 14001 environmental certification for our green cleaning practices."
+      },
+      "present": {
+        "date": "Present",
+        "title": "Market Leadership",
+        "description": "Proudly serving 2,500+ satisfied customers across 50+ cities in the Netherlands."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Don't Just Take Our Word For It...",
+    "intro": "Imagine the relief our clients felt.",
+    "testimonial1": {
+      "quote": "Wow, wow, wow! Thanks! You really left our place without a speck. And you saved us from losing our deposit! You're by far the best! The next time I need a cleaning service, you'll be the first I call!",
+      "author": "- Mindy M., Amsterdam, NL"
+    },
+    "testimonial2": {
+      "quote": "Without a doubt, our team are fantastic. They are punctual, friendly, very detailed in cleaning, and organized. If you're looking for prompt and reliable house cleaning service, choose this one.",
+      "author": "- Brenda A., Amsterdam, NL"
+    },
+    "ctaTitle": "Ready for Your Own \"Wow\" Moment?",
+    "ctaButton": "Contact us now!"
+  },
+  "cta": {
+    "title": "Try our cleaning service now!",
+    "description": "Everything you need for professional cleaning services that keep your space spotless and sanitized.",
+    "buttonText": "Book Cleaning Now",
+    "experienceProfessionalCleaning": "Experience Professional Cleaning. Keep Your Space Spotless and Healthy.",
+    "getFreeQuote": "Get Free Quote",
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "sendRequest": "Send Request",
+    "submit": "Submit",
+    "tryOnBrowser": "Try it on Browser",
+    "seeAllFeatures": "See All Features"
+  }
+}

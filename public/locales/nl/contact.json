@@ -1,0 +1,31 @@
+{
+  "page": {
+    "subtitle": "CONTACT OPNEMEN",
+    "title": "We horen graag van je.",
+    "info": "Hoewel we goed zijn met rookssignalen, zijn er eenvoudigere manieren om contact op te nemen.",
+    "consultation24h": "Wij nemen binnen 24 uur contact met u op om uw schoonmaakconsultatie in te plannen"
+  },
+  "office": {
+    "title": "Kantoorlocatie",
+    "address": "Warmoesstraat 149,<br />Amsterdam, Nederland",
+    "phone": "+31 6 57 39 52 37",
+    "email": "info@omgcleaning.nl",
+    "hours": "Ma - Za: 8:00 - 20:00<br />Zo: Alleen Nooddiensten"
+  },
+  "form": {
+    "title": "Stuur ons een Bericht",
+    "subtitle": "Neem contact op met onze schoonmaakexperts",
+    "inquiryTypes": {
+      "officeCleaning": "Kantoorschoonmaak",
+      "washingDishes": "Afwassen",
+      "carpetCleaning": "Tapijtreiniging",
+      "windowCleaning": "Ramenreiniging",
+      "deepCleaning": "Grondige reiniging",
+      "dustingVacuuming": "Stoffen, Stofzuigen en Dweilen"
+    }
+  },
+  "map": {
+    "title": "Vind Ons op de Kaart",
+    "description": "Bezoek ons kantoor in Amsterdam"
+  }
+}

@@ -1,0 +1,104 @@
+import React from "react";
+
+const OfficeCleaningIcon = () => {
+  return (
+    <>
+      <svg
+        width="56"
+        height="56"
+        viewBox="0 0 56 56"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="4"
+          y="8"
+          width="48"
+          height="40"
+          rx="4"
+          stroke="currentColor"
+          strokeWidth="2"
+        />
+        <path
+          d="M4 16H52"
+          stroke="currentColor"
+          strokeWidth="2"
+        />
+        <rect
+          x="12"
+          y="24"
+          width="8"
+          height="6"
+          rx="1"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <rect
+          x="24"
+          y="24"
+          width="8"
+          height="6"
+          rx="1"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <rect
+          x="36"
+          y="24"
+          width="8"
+          height="6"
+          rx="1"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <rect
+          x="12"
+          y="34"
+          width="8"
+          height="6"
+          rx="1"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <rect
+          x="24"
+          y="34"
+          width="8"
+          height="6"
+          rx="1"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <rect
+          x="36"
+          y="34"
+          width="8"
+          height="6"
+          rx="1"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <circle
+          cx="8"
+          cy="12"
+          r="1"
+          fill="currentColor"
+        />
+        <circle
+          cx="12"
+          cy="12"
+          r="1"
+          fill="currentColor"
+        />
+        <circle
+          cx="16"
+          cy="12"
+          r="1"
+          fill="currentColor"
+        />
+      </svg>
+    </>
+  );
+};
+
+export default OfficeCleaningIcon;
